@@ -1,0 +1,30 @@
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\PowerOff.csprojAssemblyReference.cache
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.PowerOff.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\PowerOff.csproj.GenerateResource.cache
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\PowerOff.csproj.CoreCompileInputs.cache
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\bin\Debug\PowerOff.exe.config
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\bin\Debug\PowerOff.exe
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\bin\Debug\PowerOff.pdb
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\obj\Debug\PowerOff.PowerOff.resources
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\obj\Debug\PowerOff.Properties.Resources.resources
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\obj\Debug\PowerOff.csproj.GenerateResource.cache
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\obj\Debug\PowerOff.csproj.CoreCompileInputs.cache
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\obj\Debug\PowerOff.exe
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\obj\Debug\PowerOff.pdb
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\obj\Debug\PowerOff.csprojAssemblyReference.cache
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\bin\Debug\PowerOff.exe.config
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\bin\Debug\PowerOff.exe
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\bin\Debug\PowerOff.pdb
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Debug\PowerOff.PowerOff.resources
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Debug\PowerOff.Properties.Resources.resources
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Debug\PowerOff.csproj.GenerateResource.cache
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Debug\PowerOff.csproj.CoreCompileInputs.cache
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Debug\PowerOff.exe
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Debug\PowerOff.pdb
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Debug\PowerOff.csproj.AssemblyReference.cache

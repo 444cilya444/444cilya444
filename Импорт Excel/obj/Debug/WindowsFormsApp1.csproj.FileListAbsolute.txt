@@ -1,0 +1,13 @@
+E:\Проекты\WinForms\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+E:\Проекты\WinForms\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+E:\Проекты\WinForms\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\Проекты\WinForms\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\Проекты\WinForms\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\Проекты\WinForms\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\Проекты\WinForms\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\Проекты\WinForms\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\Проекты\WinForms\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\Проекты\WinForms\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\Проекты\WinForms\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\Проекты\WinForms\WindowsFormsApp1\bin\Debug\Database1.mdf
+E:\Проекты\WinForms\WindowsFormsApp1\bin\Debug\Database1_log.ldf

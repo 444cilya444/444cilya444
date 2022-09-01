@@ -1,0 +1,34 @@
+C:\Users\mrsky\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\mrsky\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\mrsky\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Forms.Aut.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\mrsky\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\mrsky\source\repos\WindowsFormsApp1\bin\Debug\Database1.mdf
+C:\Users\mrsky\source\repos\WindowsFormsApp1\bin\Debug\Database1_log.ldf
+C:\Users\mrsky\source\repos\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\mrsky\source\repos\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\mrsky\source\repos\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\mrsky\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\mrsky\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\mrsky\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Forms.MainForm.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Forms.DobArchive.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Forms.Menus.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Forms.Reg.resources
+E:\Проекты\WinForms\Эталонная ИС\bin\Debug\Database1.mdf
+E:\Проекты\WinForms\Эталонная ИС\bin\Debug\Database1_log.ldf
+E:\Проекты\WinForms\Эталонная ИС\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+E:\Проекты\WinForms\Эталонная ИС\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+E:\Проекты\WinForms\Эталонная ИС\obj\Debug\WindowsFormsApp1.Forms.Aut.resources
+E:\Проекты\WinForms\Эталонная ИС\obj\Debug\WindowsFormsApp1.Forms.DobArchive.resources
+E:\Проекты\WinForms\Эталонная ИС\obj\Debug\WindowsFormsApp1.Forms.MainForm.resources
+E:\Проекты\WinForms\Эталонная ИС\obj\Debug\WindowsFormsApp1.Forms.Menus.resources
+E:\Проекты\WinForms\Эталонная ИС\obj\Debug\WindowsFormsApp1.Forms.Reg.resources
+E:\Проекты\WinForms\Эталонная ИС\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\Проекты\WinForms\Эталонная ИС\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\Проекты\WinForms\Эталонная ИС\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\Проекты\WinForms\Эталонная ИС\bin\Debug\Группа риска.exe.config
+E:\Проекты\WinForms\Эталонная ИС\bin\Debug\Группа риска.exe
+E:\Проекты\WinForms\Эталонная ИС\bin\Debug\Группа риска.pdb
+E:\Проекты\WinForms\Эталонная ИС\obj\Debug\Группа риска.exe
+E:\Проекты\WinForms\Эталонная ИС\obj\Debug\Группа риска.pdb

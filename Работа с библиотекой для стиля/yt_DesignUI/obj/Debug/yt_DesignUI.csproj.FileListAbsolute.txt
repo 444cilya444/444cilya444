@@ -1,0 +1,9 @@
+D:\Проекты\WinForms\Работа с библиотекой для стиля винформы\yt_DesignUI\bin\Debug\yt_DesignUI.exe
+D:\Проекты\WinForms\Работа с библиотекой для стиля винформы\yt_DesignUI\bin\Debug\yt_DesignUI.pdb
+D:\Проекты\WinForms\Работа с библиотекой для стиля винформы\yt_DesignUI\obj\Debug\yt_DesignUI.csproj.AssemblyReference.cache
+D:\Проекты\WinForms\Работа с библиотекой для стиля винформы\yt_DesignUI\obj\Debug\yt_DesignUI.frmMain.resources
+D:\Проекты\WinForms\Работа с библиотекой для стиля винформы\yt_DesignUI\obj\Debug\yt_DesignUI.Properties.Resources.resources
+D:\Проекты\WinForms\Работа с библиотекой для стиля винформы\yt_DesignUI\obj\Debug\yt_DesignUI.csproj.GenerateResource.cache
+D:\Проекты\WinForms\Работа с библиотекой для стиля винформы\yt_DesignUI\obj\Debug\yt_DesignUI.csproj.CoreCompileInputs.cache
+D:\Проекты\WinForms\Работа с библиотекой для стиля винформы\yt_DesignUI\obj\Debug\yt_DesignUI.exe
+D:\Проекты\WinForms\Работа с библиотекой для стиля винформы\yt_DesignUI\obj\Debug\yt_DesignUI.pdb

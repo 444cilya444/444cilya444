@@ -1,0 +1,40 @@
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Release\PowerOff.csprojAssemblyReference.cache
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Release\PowerOff.Properties.Resources.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Release\PowerOff.csproj.GenerateResource.cache
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Release\PowerOff.csproj.CoreCompileInputs.cache
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Release\PowerOff.exe.config
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Release\PowerOff.exe
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Release\PowerOff.pdb
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Release\PowerOff.PowerOff.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Release\PowerOff.exe
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Release\PowerOff.pdb
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\bin\Release\PowerOff.exe.config
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\bin\Release\PowerOff.exe
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\bin\Release\PowerOff.pdb
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.PowerOff.resources
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.Properties.Resources.resources
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.csproj.GenerateResource.cache
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.csproj.CoreCompileInputs.cache
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.exe
+C:\Users\mrsky\source\repos\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.pdb
+E:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\bin\Release\PowerOff.exe.config
+E:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\bin\Release\PowerOff.exe
+E:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\bin\Release\PowerOff.pdb
+E:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.PowerOff.resources
+E:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.Properties.Resources.resources
+E:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.csproj.GenerateResource.cache
+E:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.csproj.CoreCompileInputs.cache
+E:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.exe
+E:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.pdb
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\bin\Release\PowerOff.exe.config
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\bin\Release\PowerOff.exe
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\bin\Release\PowerOff.pdb
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.PowerOff.resources
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.Properties.Resources.resources
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.csproj.GenerateResource.cache
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.csproj.CoreCompileInputs.cache
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.exe
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.pdb
+D:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.csproj.AssemblyReference.cache
+E:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.csproj.AssemblyReference.cache
+E:\Проекты\WinForms\Виджет контроля питания ПК\WindowsFormsApp2\obj\Release\PowerOff.csproj.SuggestedBindingRedirects.cache

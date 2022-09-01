@@ -1,0 +1,18 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\blazorise.datagrid.css">
+      <SourceType>Package</SourceType>
+      <SourceId>Blazorise.DataGrid</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Blazorise.DataGrid</BasePath>
+      <RelativePath>blazorise.datagrid.css</RelativePath>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$(MSBuildThisFileDirectory)..\staticwebassets\blazorise.datagrid.js">
+      <SourceType>Package</SourceType>
+      <SourceId>Blazorise.DataGrid</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Blazorise.DataGrid</BasePath>
+      <RelativePath>blazorise.datagrid.js</RelativePath>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

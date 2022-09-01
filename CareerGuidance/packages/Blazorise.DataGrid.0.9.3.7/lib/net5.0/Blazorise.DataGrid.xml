@@ -1,0 +1,2006 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Blazorise.DataGrid</name>
+    </assembly>
+    <members>
+        <member name="T:Blazorise.DataGrid.AggregateContext">
+            <summary>
+            Context for calculated aggregate value.
+            </summary>
+        </member>
+        <member name="M:Blazorise.DataGrid.AggregateContext.#ctor(System.String,System.Object)">
+            <summary>
+            Default context constructor.
+            </summary>
+            <param name="field">Column field name.</param>
+            <param name="value">Calculated value.</param>
+        </member>
+        <member name="P:Blazorise.DataGrid.AggregateContext.Field">
+            <summary>
+            Gets the column field name.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.AggregateContext.Value">
+            <summary>
+            Gets the aggregate value.
+            </summary>
+        </member>
+        <member name="M:Blazorise.DataGrid.BaseDataGridColumn`1.FormatDisplayValue(System.Object)">
+            <summary>
+            Gets the formated display value.
+            </summary>
+            <param name="value">Item the contains the value to format.</param>
+            <returns>Formated display value.</returns>
+        </member>
+        <member name="P:Blazorise.DataGrid.BaseDataGridColumn`1.Field">
+            <summary>
+            To bind a column to a data source field, set this property to the required data field name.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.BaseDataGridColumn`1.DisplayFormat">
+            <summary>
+            Defines the format for display value.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.BaseDataGridColumn`1.DisplayFormatProvider">
+            <summary>
+            Defines the format provider info for display value.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.BaseDataGridComponent">
+            <summary>
+            Minimal base class for datagrid components.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.BaseDataGridComponent.IdGenerator">
+            <summary>
+            Gets or set the javascript runner.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.BaseDataGridComponent.ElementId">
+            <summary>
+            Gets or sets the datagrid element id.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.CellEditContext">
+            <summary>
+            Context for editors in datagrid cell.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.CellEditContext.CellValue">
+            <summary>
+            Gets or sets the editor value.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.CellEditContext`1">
+            <summary>
+            Abstraction of <see cref="T:Blazorise.DataGrid.CellEditContext"/> that holds the reference to the model being edited.
+            </summary>
+            <typeparam name="TItem"></typeparam>
+        </member>
+        <member name="P:Blazorise.DataGrid.CellEditContext`1.Item">
+            <summary>
+            Gets the reference to the model that is currently in edit mode.
+            </summary>
+            <remarks>
+            Note that this model is used only for reading and you should never update it directly or any
+            of it's field members. For writing the edited value you must use <see cref="P:Blazorise.DataGrid.CellEditContext.CellValue"/>.
+            </remarks>
+        </member>
+        <member name="T:Blazorise.DataGrid.CommandContext">
+            <summary>
+            Base class for all <see cref="T:Blazorise.DataGrid.DataGrid`1"/> commands.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.CommandContext.Clicked">
+            <summary>
+            Activates the click event for a command context.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.CommandContext.LocalizationString">
+            <summary>
+            Gets the localized string for this command.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGrid`1.tableRef">
+            <summary>
+            Element reference to the DataGrid's inner table.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGrid`1.resizable">
+            <summary>
+            Gets or sets whether users can resize datagrid columns.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGrid`1.data">
+            <summary>
+            Original data-source.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGrid`1.aggregateData">
+            <summary>
+            Optional aggregate data.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGrid`1.filteredData">
+            <summary>
+            Holds the filtered data based on the filter.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGrid`1.viewData">
+            <summary>
+            Holds the filtered data to display based on the current page.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGrid`1.dirtyFilter">
+            <summary>
+            Marks the grid to reload entire data source based on the current filter settings.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGrid`1.dirtyView">
+            <summary>
+            Marks the grid to refresh currently visible page.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGrid`1.disposed">
+            <summary>
+            Keeps track of whether the object has already been disposed.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGrid`1.sortByColumnsDictionary">
+            <summary>
+            Holds the state of sorted columns grouped by the sort-mode.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGrid`1.editItem">
+            <summary>
+            Currently editing item.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGrid`1.editState">
+            <summary>
+            State of the currently editing item.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGrid`1.paginationTemplates">
+            <summary>
+            Holds the pagination templates
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGrid`1.paginationContext">
+            <summary>
+            Holds the pagination context
+            </summary>
+        </member>
+        <member name="M:Blazorise.DataGrid.DataGrid`1.Hook(Blazorise.DataGrid.DataGridColumn{`0})">
+            <summary>
+            Links the child column with this datagrid.
+            </summary>
+            <param name="column">Column to link with this datagrid.</param>
+        </member>
+        <member name="M:Blazorise.DataGrid.DataGrid`1.Hook(Blazorise.DataGrid.DataGridAggregate{`0})">
+            <summary>
+            Links the child column with this datagrid.
+            </summary>
+            <param name="aggregate">Aggregate column to link with this datagrid.</param>
+        </member>
+        <member name="M:Blazorise.DataGrid.DataGrid`1.RecalculateResize">
+            <summary>
+            If DataGrid is resizable. 
+            Resizable columns should be constantly recalculated to keep up with the current Datagrid's height dimensions.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Blazorise.DataGrid.DataGrid`1.CreateNewItem">
+            <summary>
+            Create new empty instance of TItem.
+            </summary>
+            <returns>Return new instance of TItem.</returns>
+        </member>
+        <member name="M:Blazorise.DataGrid.DataGrid`1.InitEditItem(`0)">
+            <summary>
+            Prepares edit item and it's cell values for editing.
+            </summary>
+            <param name="item">Item to set.</param>
+        </member>
+        <member name="M:Blazorise.DataGrid.DataGrid`1.Reload">
+            <summary>
+            Triggers the reload of the <see cref="T:Blazorise.DataGrid.DataGrid`1"/> data.
+            </summary>
+            <returns>Returns the awaitable task.</returns>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.ClassNames">
+            <summary>
+            Gets the DataGrid standard class and other existing Class
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Columns">
+            <summary>
+            List of all the columns associated with this datagrid.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Aggregates">
+            <summary>
+            List of all the aggregate columns associated with this datagrid.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.EditableColumns">
+            <summary>
+            Gets only columns that are available for editing.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.DisplayableColumns">
+            <summary>
+            Gets only columns that are available for display in the grid.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.CanInsertNewItem">
+            <summary>
+            Returns true if <see cref="P:Blazorise.DataGrid.DataGrid`1.Data"/> is safe to modify.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.HasAggregates">
+            <summary>
+            Returns true if any aggregate is defines on columns.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.IsDisplayDataVisible">
+            <summary>
+            Returns true if data is not empty, data is not loaded, empty and loading template is not set.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.IsLoadingTemplateVisible">
+            <summary>
+            Returns true if LoadingTemplate is set and IsLoading is true.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.IsLoading">
+            <summary>
+            Returns true if ReadData will be invoked.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.IsEmptyTemplateVisible">
+            <summary>
+            Returns true if EmptyTemplate is set and Data is null or empty.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.IsPagerVisible">
+            <summary>
+            Returns true if ShowPager is true and grid is not empty or loading.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.IsNewItemInGrid">
+            <summary>
+            Returns true if current state is for new item and editing fields are shown on datagrid.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.ManualReadMode">
+            <summary>
+            True if user is using <see cref="P:Blazorise.DataGrid.DataGrid`1.ReadData"/> for loading the data.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.EditState">
+            <summary>
+            Gets the current datagrid editing state.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.SortByColumns">
+            <summary>
+            Gets the sort solumn info for current SortMode.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.IsButtonRowVisible">
+            <summary>
+            True if button row should be rendered.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.IsCommandVisible">
+            <summary>
+            True if command buttons should be rendered.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.UnSelectAllRows">
+            <summary>
+            Trigger to unselect all rows.
+            Set it back to false.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.SelectedAllRows">
+            <summary>
+            Trigger to select all rows.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.SingleSelect">
+            <summary>
+            Checks if the DataGrid is currently on single selection mode.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.MultiSelect">
+            <summary>
+            Checks if the DataGrid is currently on multiple selection mode.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.PopupTitleTemplate">
+            <summary>
+            Gets template for title of popup modal.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGrid`1.PopupVisible">
+            <summary>
+            Gets the flag which indicates if popup editor is visible.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.PopupSize">
+            <summary>
+            Defines the size of popup dialog.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.CommandColumn">
+            <summary>
+            Gets the reference to the associated command column.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.MultiSelectColumn">
+            <summary>
+            Gets the reference to the associated multiselect column.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.IsMultiSelectAllIndeterminate">
+            <summary>
+            Checks if the MultiSelectAll is indeterminate, meaning that only some of the current view rows are selected.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Data">
+            <summary>
+            Gets or sets the datagrid data-source.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.AggregateData">
+            <summary>
+            Gets or sets the clalculated aggregate data.
+            </summary>
+            <remarks>
+            Used only in manual mode along with the <see cref="P:Blazorise.DataGrid.DataGrid`1.ReadData"/> handler.
+            </remarks>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.TotalItems">
+            <summary>
+            Gets or sets the total number of items. Used only when <see cref="P:Blazorise.DataGrid.DataGrid`1.ReadData"/> is used to load the data.
+            </summary>
+            <remarks>
+            This field must be set only when <see cref="P:Blazorise.DataGrid.DataGrid`1.ReadData"/> is used to load the data.
+            </remarks>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.FilteredData">
+            <summary>
+            Gets the data after all of the filters have being applied.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.FilteredDataChanged">
+            <summary>
+            Raises an event every time that filtered data is refreshed.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.DisplayData">
+            <summary>
+            Gets the data to show on grid based on the filter and current page.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.UseInternalEditing">
+            <summary>
+            Specifies the behaviour of datagrid editing.
+            </summary>
+            <remarks>
+            Disabling this option will send all changes to the RowInserted and RowUpdated but nothing will be saved unless the user manually update the item values.
+            </remarks>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Editable">
+            <summary>
+            Gets or sets whether users can edit datagrid rows.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Resizable">
+            <summary>
+            Gets or sets whether users can resize datagrid columns.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.ResizeMode">
+            <summary>
+            Gets or sets whether the user can resize on header or columns.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Sortable">
+            <summary>
+            Gets or sets whether end-users can sort data by the column's values.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.SortMode">
+            <summary>
+            Gets or sets whether the user can sort only by one column or by multiple.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Filterable">
+            <summary>
+            Gets or sets whether users can filter rows by its cell values.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.ShowCaptions">
+            <summary>
+            Gets or sets whether user can see a column captions.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.ShowPager">
+            <summary>
+            Gets or sets whether users can navigate datagrid by using pagination controls.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.PagerPosition">
+            <summary>
+            Gets or sets the position of the pager.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.ShowPageSizes">
+            <summary>
+            Gets or sets whether users can adjust the page size of the datagrid.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.PageSizes">
+            <summary>
+            Gets or sets the chooseable page sizes of the datagrid.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.CurrentPage">
+            <summary>
+            Gets or sets the current page number.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.EmptyTemplate">
+            <summary>
+            Gets or sets content of table body for empty DisplayData.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.EmptyCellTemplate">
+            <summary>
+            Gets or sets content of cell body for empty DisplayData.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.LoadingTemplate">
+            <summary>
+            Gets or sets content of table body for handle ReadData.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.ButtonRowTemplate">
+            <summary>
+            Gets or sets content of button row of pager.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.FirstPageButtonTemplate">
+            <summary>
+            Gets or sets content of first button of pager.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.LastPageButtonTemplate">
+            <summary>
+            Gets or sets content of last button of pager.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.PreviousPageButtonTemplate">
+            <summary>
+            Gets or sets content of previous button of pager.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.NextPageButtonTemplate">
+            <summary>
+            Gets or sets content of next button of pager.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.PageButtonTemplate">
+            <summary>
+            Gets or sets content of page buttons of pager.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.ItemsPerPageTemplate">
+            <summary>
+            Gets or sets content of items per page of grid.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.TotalItemsShortTemplate">
+            <summary>
+            Gets or sets content of total items grid for small devices.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.TotalItemsTemplate">
+            <summary>
+            Gets or sets content of total items grid.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.PageSize">
+            <summary>
+            Gets or sets the maximum number of items for each page.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.PageSizeChanged">
+            <summary>
+            Occurs after the <see cref="P:Blazorise.DataGrid.DataGrid`1.PageSize"/> has changed.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.MaxPaginationLinks">
+            <summary>
+            Gets or sets the maximum number of visible pagination links. It has to be odd for well look.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.FilterMethod">
+            <summary>
+            Defines the filter method when searching the cell values.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.SelectedRow">
+            <summary>
+            Gets or sets currently selected row.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.SelectedRows">
+            <summary>
+            Gets or sets currently selected rows.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.SelectionMode">
+            <summary>
+            Gets or sets current selection mode.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.SelectedRowChanged">
+            <summary>
+            Occurs after the selected row has changed.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.SelectedRowsChanged">
+            <summary>
+            Occurs after multi selection has changed.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.RowInserting">
+            <summary>
+            Cancelable event called before the row is inserted.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.RowUpdating">
+            <summary>
+            Cancelable event called before the row is updated.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.RowRemoving">
+            <summary>
+            Cancelable event called before the row is removed.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.RowInserted">
+            <summary>
+            Event called after the row is inserted.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.RowUpdated">
+            <summary>
+            Event called after the row is updated.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.RowRemoved">
+            <summary>
+            Event called after the row is removed.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.RowClicked">
+            <summary>
+            Event called after the row is clicked.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.RowDoubleClicked">
+            <summary>
+            Event called after the row is double clicked.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.PageChanged">
+            <summary>
+            Occurs after the selected page has changed.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.ReadData">
+            <summary>
+            Event handler used to load data manually based on the current page and filter data settings.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.EditMode">
+            <summary>
+            Specifes the grid editing modes.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.CommandMode">
+            <summary>
+            Specifies the grid command mode.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.DetailRowTrigger">
+            <summary>
+            A trigger function used to handle the visibility of detail row.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.RowSelectable">
+            <summary>
+            Handles the selection of the clicked row.
+            If not set it will default to always true.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.RowHoverCursor">
+            <summary>
+            Handles the selection of the cursor for a hovered row.
+            If not set, <see cref="F:Blazorise.Cursor.Default"/> will be used.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.DetailRowTemplate">
+            <summary>
+            Template for displaying detail or nested row.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.NewItemDefaultSetter">
+            <summary>
+            Function, that is called, when a new item is created for inserting new entry.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.NewItemCreator">
+            <summary>
+            Function that, if set, is called to create new instance of an item. If left null a default constructor will be used.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Striped">
+            <summary>
+            Adds stripes to the table.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Bordered">
+            <summary>
+            Adds borders to all the cells.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Borderless">
+            <summary>
+            Makes the table without any borders.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Hoverable">
+            <summary>
+            Adds a hover effect when mousing over rows.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Narrow">
+            <summary>
+            Makes the table more compact by cutting cell padding in half.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Responsive">
+            <summary>
+            Makes table responsive by adding the horizontal scroll bar.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Class">
+            <summary>
+            Custom css classname.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Style">
+            <summary>
+            Custom html style.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Margin">
+            <summary>
+            Defines the element margin spacing.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Padding">
+            <summary>
+            Defines the element padding spacing.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.RowStyling">
+            <summary>
+            Custom handler for each row in the datagrid.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.SelectedRowStyling">
+            <summary>
+            Custom handler for currently selected row.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.CustomFilter">
+            <summary>
+            Handler for custom filtering on datagrid item.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.HeaderRowStyling">
+            <summary>
+            Custom styles for header row.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.FilterRowStyling">
+            <summary>
+            Custom styles for filter row.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.GroupRowStyling">
+            <summary>
+            Custom styles for group row.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.DataGridColumns">
+            <summary>
+            Template for holding the datagrid columns.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.DataGridAggregates">
+            <summary>
+            Template for holding the datagrid aggregate columns.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.ShowValidationFeedback">
+            <summary>
+            If true, shows feedbacks for all validations.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.ShowValidationsSummary">
+            <summary>
+            If true, shows summary for all validations.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.ValidationsSummaryLabel">
+            <summary>
+            Label for validaitons summary.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.Localizers">
+            <summary>
+            Custom localizer handlers to override default <see cref="T:Blazorise.DataGrid.DataGrid`1"/> localization.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGrid`1.ChildContent">
+            <summary>
+            Specifies the content to be rendered inside this <see cref="T:Blazorise.DataGrid.DataGrid`1"/>.
+            </summary>
+        </member>
+        <member name="M:Blazorise.DataGrid.DataGridAggregate`1.FormatDisplayValue(System.Object)">
+            <summary>
+            Gets the formated display value.
+            </summary>
+            <param name="value">Item the contains the value to format.</param>
+            <returns>Formated display value.</returns>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridAggregate`1.Field">
+            <summary>
+            To bind a column to a data source field, set this property to the required data field name.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridAggregate`1.Aggregate">
+            <summary>
+            Type of aggregate calculation.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridAggregate`1.DisplayTemplate">
+            <summary>
+            Optional display template for aggregate values.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridAggregate`1.DisplayFormat">
+            <summary>
+            Defines the format for display value.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridAggregate`1.DisplayFormatProvider">
+            <summary>
+            Defines the format provider info for display value.
+            </summary>
+        </member>
+        <member name="M:Blazorise.DataGrid.DataGridColumn`1.GetValueType">
+            <summary>
+            Gets the typeof() of the value associated with this column field.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Blazorise.DataGrid.DataGridColumn`1.GetDefaultValueByType">
+            <summary>
+            Gets default value based on the typeof() of the value associated with this column field.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Blazorise.DataGrid.DataGridColumn`1.GetValue(`0)">
+            <summary>
+            Gets the current value for the field in the supplied model.
+            </summary>
+            <param name="item">Item for which ro set the value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Blazorise.DataGrid.DataGridColumn`1.SetValue(`0,System.Object)">
+            <summary>
+            Sets the value for the field in the supplied model.
+            </summary>
+            <param name="item">Item for which ro set the value.</param>
+            <param name="value">Value to set.</param>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.CellValueIsEditable">
+            <summary>
+            Returns true if the cell value is editable.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.CurrentDirection">
+            <summary>
+            Gets or sets the current sort direction.
+            </summary>
+            <remarks>
+            The reason for this field is that <see cref="P:Blazorise.DataGrid.DataGridColumn`1.Direction"/> is reseted every
+            time when the grid is refreshed by the user.
+            </remarks>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.ColumnType">
+            <summary>
+            Gets the type of column editor.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.Caption">
+            <summary>
+            Gets or sets the column's display caption.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.CaptionTemplate">
+            <summary>
+            Gets or sets the column's display caption template.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.Filter">
+            <summary>
+            Filter value for this column.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.Direction">
+            <summary>
+            Gets or sets the column initial sort direction.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.SortDirectionTemplate">
+            <summary>
+            Gets or sets the column's display sort direction template.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.TextAlignment">
+            <summary>
+            Defines the alignment for display cell.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.HeaderTextAlignment">
+            <summary>
+            Defines the alignment for column header cell.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.Editable">
+            <summary>
+            Gets or sets whether users can edit cell values under this column.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.Displayable">
+            <summary>
+            Gets or sets whether column can be displayed on a grid.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.DisplayOrder">
+            <summary>
+            Gets or sets where column will be displayed on a grid.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.EditOrder">
+            <summary>
+            Gets or sets where column will be displayed on edit row/popup.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.CellsEditableOnNewCommand">
+            <summary>
+            Allows the cell values to be entered while the grid is in the new-item state.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.CellsEditableOnEditCommand">
+            <summary>
+            Allows the cell values to be entered while the grid is in the edit-item state.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.Sortable">
+            <summary>
+            Gets or sets whether end-users can sort data by the column's values.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.Readonly">
+            <summary>
+            Gets or sets whether end-users are prevented from editing the column's cell values.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.ShowCaption">
+            <summary>
+            Gets or sets whether the column's caption is displayed within the column header.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.Filterable">
+            <summary>
+            Gets or sets whether users can filter rows by its cell values.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.Width">
+            <summary>
+            The width of the column.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.CellClass">
+            <summary>
+            Custom classname handler for cell based on the current row item.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.CellStyle">
+            <summary>
+            Custom style handler for cell based on the current row item.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.HeaderCellClass">
+            <summary>
+            Custom classname for header cell.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.HeaderCellStyle">
+            <summary>
+            Custom style for header cell.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.FilterCellClass">
+            <summary>
+            Custom classname for filter cell.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.FilterCellStyle">
+            <summary>
+            Custom style for filter cell.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.GroupCellClass">
+            <summary>
+            Custom classname for group cell.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.GroupCellStyle">
+            <summary>
+            Custom style for group cell.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.DisplayTemplate">
+            <summary>
+            Template for custom cell display formating.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.FilterTemplate">
+            <summary>
+            Template for custom column filter rendering.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.PopupFieldColumnSize">
+            <summary>
+            Defines the size of field for popup modal.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.EditTemplate">
+            <summary>
+            Template for custom cell editing.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.Validator">
+            <summary>
+            Validates the input value after trying to save.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumn`1.ValidationPattern">
+            <summary>
+            Forces validation to use regex pattern matching instead of default validator handler.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridCommandColumn`1.NewCommandTemplate">
+            <summary>
+            Template to customize new command button.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridCommandColumn`1.EditCommandTemplate">
+            <summary>
+            Template to customize edit command button.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridCommandColumn`1.SaveCommandTemplate">
+            <summary>
+            Template to customize save command button.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridCommandColumn`1.CancelCommandTemplate">
+            <summary>
+            Template to customize cancel command button.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridCommandColumn`1.DeleteCommandTemplate">
+            <summary>
+            Template to customize delete command button.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridCommandColumn`1.ClearFilterCommandTemplate">
+            <summary>
+            Template to customize clear-filter command button.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridCommandColumn`1.NewCommandAllowed">
+            <summary>
+            Handles the visibility of new command button.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridCommandColumn`1.EditCommandAllowed">
+            <summary>
+            Handles the visibility of edit command button.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridCommandColumn`1.SaveCommandAllowed">
+            <summary>
+            Handles the visibility of save command button.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridCommandColumn`1.CancelCommandAllowed">
+            <summary>
+            Handles the visibility of cancel command button.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridCommandColumn`1.DeleteCommandAllowed">
+            <summary>
+            Handles the visibility of delete command button.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridCommandColumn`1.ClearFilterCommandAllowed">
+            <summary>
+            Handles the visibility of clear-filter command button.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.DataGridLocalizers">
+            <summary>
+            Handlers for custom datagrid localizations.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.NewButtonLocalizer">
+            <summary>
+            Custom localization handler for 'new' button text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.EditButtonLocalizer">
+            <summary>
+            Custom localization handler for 'edit' button text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.DeleteButtonLocalizer">
+            <summary>
+            Custom localization handler for 'delete' button text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.SaveButtonLocalizer">
+            <summary>
+            Custom localization handler for 'save' button text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.CancelButtonLocalizer">
+            <summary>
+            Custom localization handler for 'cancel' button text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.ClearFilterButtonLocalizer">
+            <summary>
+            Custom localization handler for 'clear filter' button text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.FirstPageButtonLocalizer">
+            <summary>
+            Custom localization handler for 'first page' button text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.LastPageButtonLocalizer">
+            <summary>
+            Custom localization handler for 'last page' button text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.PreviousPageButtonLocalizer">
+            <summary>
+            Custom localization handler for 'previous page' button text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.NextPageButtonLocalizer">
+            <summary>
+            Custom localization handler for 'next page' button text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.ItemsLocalizer">
+            <summary>
+            Custom localization handler for 'items' text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.ItemsPerPageLocalizer">
+            <summary>
+            Custom localization handler for 'items per page' text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.NumbersOfItemsLocalizer">
+            <summary>
+            Custom localization handler for 'total items' text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.ModalRowEditLocalizer">
+            <summary>
+            Custom localization handler for modal 'row edit' text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.ModalRowCreateLocalizer">
+            <summary>
+            Custom localization handler for modal 'row create' text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.EditLocalizer">
+            <summary>
+            Custom localization handler for 'edit' text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridLocalizers.CreateLocalizer">
+            <summary>
+            Custom localization handler for 'create' text.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridMultiSelectColumn`1.MultiSelectTemplate">
+            <summary>
+            Template to customize multi select checkbox.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.DataGridRowStyling">
+            <summary>
+            Helpers class to override default row styling.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridRowStyling.Class">
+            <summary>
+            Row custom classnames.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridRowStyling.Style">
+            <summary>
+            Row custom styles.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridRowStyling.Color">
+            <summary>
+            Row custom color.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridRowStyling.Background">
+            <summary>
+            Row custom background color.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.DataGridEditState">
+            <summary>
+            States of the row items.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridEditState.None">
+            <summary>
+            Default state which means the row value will just be showed.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridEditState.New">
+            <summary>
+            Row values will be visible in the new item edit mode.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridEditState.Edit">
+            <summary>
+            Row values will be visible in the row editing mode.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.DataGridEditMode">
+            <summary>
+            Specifes the grid editing modes.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridEditMode.Form">
+            <summary>
+            Values will be edited in the edit form.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridEditMode.Inline">
+            <summary>
+            Values will be edited within the inline edit row.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridEditMode.Popup">
+            <summary>
+            Values will be edited in the modal dialog.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.DataGridColumnType">
+            <summary>
+            Defines the column editor type.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridColumnType.Text">
+            <summary>
+            Column can accept string values.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridColumnType.Numeric">
+            <summary>
+            Column can accept only numeric values.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridColumnType.Check">
+            <summary>
+            Column can accept only boolean values.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridColumnType.Date">
+            <summary>
+            Column can accept only datetime values.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridColumnType.Select">
+            <summary>
+            Column can be used to select multiple values.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridColumnType.Command">
+            <summary>
+            Column is used only to represent commands like edit, save, etc.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridColumnType.MultiSelect">
+            <summary>
+            Column is used only to represent the multiselect command.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.DataGridAggregateType">
+            <summary>
+            Defines the supported aggregate calculation types.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridAggregateType.None">
+            <summary>
+            Aggregation will not be calculated.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridAggregateType.Sum">
+            <summary>
+            Summary of numeric value.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridAggregateType.Average">
+            <summary>
+            Average value of numeric value.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridAggregateType.Min">
+            <summary>
+            Min value of numeric value.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridAggregateType.Max">
+            <summary>
+            Max value of numeric value.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridAggregateType.Count">
+            <summary>
+            Count all values that are not null.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridAggregateType.TrueCount">
+            <summary>
+            Count all boolean values that are true.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridAggregateType.FalseCount">
+            <summary>
+            Count all boolean values that are false.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.DataGridPagerPosition">
+            <summary>
+            Defines the supported positions of the pagination.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridPagerPosition.Top">
+            <summary>
+            Positions the pagination above the table.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridPagerPosition.Bottom">
+            <summary>
+            Positions the pagination below the table.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridPagerPosition.TopAndBottom">
+            <summary>
+            Positions the pagination on above and below the table.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.DataGridSortMode">
+            <summary>
+            Defines the sort mode of the data grid.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridSortMode.Single">
+            <summary>
+            The data grid can only be sorted by one column at a time.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridSortMode.Multiple">
+            <summary>
+            The data grid can sorted by multiple columns.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.DataGridSelectionMode">
+            <summary>
+            Defines the selection mode of the data grid.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridSelectionMode.Single">
+            <summary>
+            The data grid can only select a row at a time.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridSelectionMode.Multiple">
+            <summary>
+            The data grid can select multiple rows with checkbox support.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.DataGridCommandMode">
+            <summary>
+            Defines the command mode of the data grid.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridCommandMode.Default">
+            <summary>
+            Default state which means that both defined commands and button row will render(only if ButtonRowTemplate is defined).
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridCommandMode.Commands">
+            <summary>
+            Only defined commands will render.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridCommandMode.ButtonRow">
+            <summary>
+            Only button row will render.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.DataGridResizeMode">
+            <summary>
+            Defines the resize mode of the data grid columns.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridResizeMode.Header">
+            <summary>
+            The data grid can only be resized from the columns header.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid.DataGridResizeMode.Columns">
+            <summary>
+            The data grid can be resized from the entire column area.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.CancellableRowChange`1">
+            <summary>
+            Represents the base class for cancellable events when datagrid item is saving.
+            </summary>
+            <typeparam name="TItem">Model type param.</typeparam>
+        </member>
+        <member name="M:Blazorise.DataGrid.CancellableRowChange`1.#ctor(`0)">
+            <summary>
+            Initializes a new instance of the cancelable event argument.
+            </summary>
+            <param name="item">Saved item.</param>
+        </member>
+        <member name="P:Blazorise.DataGrid.CancellableRowChange`1.Item">
+            <summary>
+            Gets the model that was saved.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.CancellableRowChange`2">
+            <summary>
+            Represents the base class for cancellable events when datagrid item is saving.
+            </summary>
+            <typeparam name="TItem">Model type param.</typeparam>
+            <typeparam name="TValues">Values type param.</typeparam>
+        </member>
+        <member name="M:Blazorise.DataGrid.CancellableRowChange`2.#ctor(`0,`1)">
+            <summary>
+            Initializes a new instance of the cancelable event argument.
+            </summary>
+            <param name="item">Saved item.</param>
+            <param name="values">Edited values.</param>
+        </member>
+        <member name="P:Blazorise.DataGrid.CancellableRowChange`2.Values">
+            <summary>
+            Values that are being edited by the datagrid.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.SavedRowItem`2">
+            <summary>
+            Represents the base class for items saved by the datagrid.
+            </summary>
+            <typeparam name="TItem">Model type param.</typeparam>
+            <typeparam name="TValues">Values type param.</typeparam>
+        </member>
+        <member name="M:Blazorise.DataGrid.SavedRowItem`2.#ctor(`0,`1)">
+            <summary>
+            Initializes a new instance of the event argument.
+            </summary>
+            <param name="item">Saved item.</param>
+            <param name="values">Edited values.</param>
+        </member>
+        <member name="P:Blazorise.DataGrid.SavedRowItem`2.Item">
+            <summary>
+            Gets the model that was saved.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.SavedRowItem`2.Values">
+            <summary>
+            Values that are being edited by the datagrid.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.DataGridPageChangedEventArgs">
+            <summary>
+            Provides the data for datagrid page change.
+            </summary>
+        </member>
+        <member name="M:Blazorise.DataGrid.DataGridPageChangedEventArgs.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of page changed event argument.
+            </summary>
+            <param name="page">Page number at the moment of initialization.</param>
+            <param name="pageSize">Maximum number of items per page.</param>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridPageChangedEventArgs.Page">
+            <summary>
+            Gets the requested page number.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridPageChangedEventArgs.PageSize">
+            <summary>
+            Gets the max number of items requested by page.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.DataGridReadDataEventArgs`1">
+            <summary>
+            Provides all the information for loading the datagrid data manually.
+            </summary>
+            <typeparam name="TItem"></typeparam>
+        </member>
+        <member name="M:Blazorise.DataGrid.DataGridReadDataEventArgs`1.#ctor(System.Int32,System.Int32,System.Collections.Generic.IEnumerable{Blazorise.DataGrid.DataGridColumn{`0}},System.Threading.CancellationToken)">
+            <summary>
+            Initializes a new instance of read-data event argument.
+            </summary>
+            <param name="page">Page number at the moment of initialization.</param>
+            <param name="pageSize">Maximum number of items per page.</param>
+            <param name="columns">List of all the columns in the grid.</param>
+            <param name="cancellationToken">Cancellation token.</param>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridReadDataEventArgs`1.Page">
+            <summary>
+            Gets the requested page number.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridReadDataEventArgs`1.PageSize">
+            <summary>
+            Gets the max number of items requested by page.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridReadDataEventArgs`1.Columns">
+            <summary>
+            Gets the list of columns.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridReadDataEventArgs`1.CancellationToken">
+            <summary>
+            Gets the CancellationToken
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.DataGridRowMouseEventArgs`1">
+            <summary>
+            Provides all the information about the clicked event on datagrid row.
+            </summary>
+            <typeparam name="TItem"></typeparam>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridRowMouseEventArgs`1.Item">
+            <summary>
+            Gets the model.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridRowMouseEventArgs`1.MouseEventArgs">
+            <summary>
+            Gets the mouse event details.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.MultiSelectEventArgs`1">
+            <summary>
+            Provides all the information about the multi select event.
+            </summary>
+            <typeparam name="TItem"></typeparam>
+        </member>
+        <member name="M:Blazorise.DataGrid.MultiSelectEventArgs`1.#ctor(`0,System.Boolean)">
+            <summary>
+            Default constructors.
+            </summary>
+            <param name="item">Model that belongs to the grid row.</param>
+            <param name="selected">Indicates if the row is selected or not.</param>
+        </member>
+        <member name="P:Blazorise.DataGrid.MultiSelectEventArgs`1.Item">
+            <summary>
+            Gets the model.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.MultiSelectEventArgs`1.Selected">
+            <summary>
+            Returns true if the row is selected.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.ExtensionMethods">
+            <summary>
+            Helper extension methods.
+            </summary>
+        </member>
+        <member name="M:Blazorise.DataGrid.ExtensionMethods.NextDirection(Blazorise.SortDirection)">
+            <summary>
+            Gets the next available direction based on the current one.
+            </summary>
+            <param name="direction">Current sort direction.</param>
+            <returns>Returns the next available sort direction.</returns>
+        </member>
+        <member name="M:Blazorise.DataGrid.ExtensionMethods.Localize(Blazorise.Localization.ITextLocalizer,Blazorise.Localization.TextLocalizerHandler,System.String,System.Object[])">
+            <summary>
+            Handles the localization of datagrid based on the built-int localizer and a custom localizer handler.
+            </summary>
+            <param name="textLocalizer">Default localizer.</param>
+            <param name="textLocalizerHandler">Custom localizer.</param>
+            <param name="name">Localization name.</param>
+            <param name="arguments">Arguments to format the text.</param>
+            <returns>Returns the localized text.</returns>
+        </member>
+        <member name="T:Blazorise.DataGrid.FilterContext">
+            <summary>
+            Context for editors in datagrid filter section.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.FilterContext.SearchValue">
+            <summary>
+            Gets or sets the filter value.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.DataGridColumnInfo">
+            <summary>
+            Holds the basic information about the datagrid column.
+            </summary>
+        </member>
+        <member name="M:Blazorise.DataGrid.DataGridColumnInfo.#ctor(System.String,System.String,Blazorise.SortDirection,Blazorise.DataGrid.DataGridColumnType)">
+            <summary>
+            Initializes a new instance of column info.
+            </summary>
+            <param name="field">Field name.</param>
+            <param name="searchValue">Current search value.</param>
+            <param name="direction">Current sort direction.</param>
+            <param name="columnType">Current column type.</param>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumnInfo.Field">
+            <summary>
+            Gets the column or datasource field name.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumnInfo.SearchValue">
+            <summary>
+            Gets the column search value.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumnInfo.Direction">
+            <summary>
+            Gets the column sort direction.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.DataGridColumnInfo.ColumnType">
+            <summary>
+            Gets the column type.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.MultiSelectContext`1">
+            <summary>
+            Context for the row multi select mode.
+            </summary>
+            <typeparam name="TItem"></typeparam>
+        </member>
+        <member name="M:Blazorise.DataGrid.MultiSelectContext`1.#ctor(Microsoft.AspNetCore.Components.EventCallback{System.Boolean},System.Boolean,System.Boolean)">
+            <summary>
+            Constructor for event handler.
+            </summary>
+            <param name="selectedChanged">Holds the event handler for <see cref="P:Blazorise.DataGrid.MultiSelectContext`1.SelectedChanged"/>.</param>
+            <param name="isSelected">Indicates if the item is selected.</param>
+            <param name="isIndeterminate">Indicates if the item is in indeterminate state.</param>
+        </member>
+        <member name="M:Blazorise.DataGrid.MultiSelectContext`1.#ctor(Microsoft.AspNetCore.Components.EventCallback{System.Boolean},System.Boolean,System.Boolean,`0)">
+            <summary>
+            Constructor for event handler and a model.
+            </summary>
+            <param name="selectedChanged">Holds the event handler for <see cref="P:Blazorise.DataGrid.MultiSelectContext`1.SelectedChanged"/>.</param>
+            <param name="isSelected">Indicates if the item is selected.</param>
+            <param name="isIndeterminate">Indicates if the item is in indeterminate state.</param>
+            <param name="item">Model associated with the row.</param>
+        </member>
+        <member name="P:Blazorise.DataGrid.MultiSelectContext`1.IsSelected">
+            <summary>
+            Gets the current selected state.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.MultiSelectContext`1.IsIndeterminate">
+            <summary>
+            Gets the current indeterminate state.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.MultiSelectContext`1.SelectedChanged">
+            <summary>
+            Gets the event handler for selection change.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.MultiSelectContext`1.Item">
+            <summary>
+            Gets the model.
+            </summary>
+        </member>
+        <member name="T:Blazorise.DataGrid.PageButtonContext">
+            <summary>
+            Context for pagination button.
+            </summary>
+        </member>
+        <member name="M:Blazorise.DataGrid.PageButtonContext.#ctor(System.Int32,System.Boolean)">
+            <summary>
+            Default context constructor.
+            </summary>
+            <param name="pageNumer">Button page number .</param>
+            <param name="active">Indicates if page is active.</param>
+        </member>
+        <member name="P:Blazorise.DataGrid.PageButtonContext.PageNumer">
+            <summary>
+            Gets the page number.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.PageButtonContext.Active">
+            <summary>
+            Get the flag that indicates if the page is active.
+            </summary>
+        </member>
+        <member name="M:Blazorise.DataGrid.PaginationContext`1.CalculateFirstAndLastVisiblePage">
+            <summary>
+            Calculates the first and last visible pages based on the current offset and page size.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.PaginationContext`1.CancellationTokenSource">
+            <summary>
+            Gets the CancellationTokenSource which could be used to issue a cancellation.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.PaginationContext`1.CurrentPage">
+            <summary>
+            Gets or sets the current page
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.PaginationContext`1.LastPage">
+            <summary>
+            Gets the last page number.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.PaginationContext`1.FirstVisiblePage">
+            <summary>
+            Gets the number of the first page that can be clicked in a large dataset.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.PaginationContext`1.LastVisiblePage">
+            <summary>
+            Gets the number of the last page that can be clicked in a large dataset.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.PaginationContext`1.CurrentPageSize">
+            <summary>
+            Gets or sets the current page size
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.PaginationContext`1.TotalItems">
+            <summary>
+            Gets or sets the total number of items. Used only when <see cref="P:Blazorise.DataGrid.DataGrid`1.ReadData"/> is used to load the data.
+            </summary>
+            <remarks>
+            This field must be set only when <see cref="P:Blazorise.DataGrid.DataGrid`1.ReadData"/> is used to load the data.
+            </remarks>
+        </member>
+        <member name="P:Blazorise.DataGrid.PopupTitleContext`1.Item">
+            <summary>
+            Gets the model.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.PopupTitleContext`1.EditState">
+            <summary>
+            Gets the edit state of data grid.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid.PopupTitleContext`1.LocalizationString">
+            <summary>
+            Gets the localized text for modal header.
+            </summary>
+        </member>
+        <member name="M:Blazorise.DataGrid.Utils.FunctionCompiler.GetSafePropertyOrField(System.Linq.Expressions.Expression,System.String)">
+            <summary>
+            Bulds an access expression for nested properties while checking for null values.
+            </summary>
+            <param name="item">Item that has the requested field name.</param>
+            <param name="propertyOrFieldName">Item field name.</param>
+            <returns>Returns the requested field if it exists.</returns>
+        </member>
+        <member name="M:Blazorise.DataGrid.Utils.FunctionCompiler.IsNullable(System.Type)">
+            <summary>
+            Checks if requested type can bu nullable.
+            </summary>
+            <param name="type">Object type.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Blazorise.DataGrid.Utils.FunctionCompiler.GetField(System.Linq.Expressions.Expression,System.String)">
+            <summary>
+            Bulds an access expression for nested properties or fields.
+            </summary>
+            <param name="item">Item that has the requested field name.</param>
+            <param name="propertyOrFieldName">Item field name.</param>
+            <returns>Returns the requested field if it exists.</returns>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridAggregateRow`1.Columns">
+            <summary>
+            List of columns used to build this row.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridAggregateRow`1.Aggregates">
+            <summary>
+            List of aggregate columns used to build this row.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridAggregateRow`1.Class">
+            <summary>
+            Custom css classname.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridAggregateRow`1.Style">
+            <summary>
+            Custom html style.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridAggregateRow`1.Background">
+            <summary>
+            Custom background.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridAggregateRow`1.Color">
+            <summary>
+            Custom color.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridCellEdit`1.Item">
+            <summary>
+            Row model.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridCellEdit`1.ValueType">
+            <summary>
+            Value data type.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridCellEdit`1.CellEditContext">
+            <summary>
+            Currently editing cell value.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridCellEdit`1.Readonly">
+            <summary>
+            Prevents user from editing the cell value.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._BaseDataGridDetailRow`1.Item">
+            <summary>
+            Item associated with the data set.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._BaseDataGridDetailRow`1.Columns">
+            <summary>
+            List of columns used to build this row.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._BaseDataGridFullColumnSpanRow`1.Item">
+            <summary>
+            Item associated with the data set.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._BaseDataGridFullColumnSpanRow`1.Columns">
+            <summary>
+            List of columns used to build this row.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridPagination`1.ButtonRowTemplate">
+            <summary>
+            Gets or sets content of button row of pager.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridPagination`1.PaginationContext">
+            <summary>
+            Gets or sets the pagination context.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridPagination`1.PaginationTemplates">
+            <summary>
+            Gets or sets the pagination templates.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridPagination`1.SelectedRow">
+            <summary>
+            Gets or sets currently selected row.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridPagination`1.New">
+            <summary>
+            Activates the new command.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridPagination`1.Edit">
+            <summary>
+            Activates the edit command for current item.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridPagination`1.Delete">
+            <summary>
+            Activates the delete command for current item.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridPagination`1.ClearFilter">
+            <summary>
+            Activates the clear filter command.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridPagination`1.PageButtonTemplate">
+            <summary>
+            Gets or sets content of page buttons of pager.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridPagination`1.FirstPageButtonTemplate">
+            <summary>
+            Gets or sets content of first button of pager.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridPagination`1.LastPageButtonTemplate">
+            <summary>
+            Gets or sets content of last button of pager.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridPagination`1.PreviousPageButtonTemplate">
+            <summary>
+            Gets or sets content of previous button of pager.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridPagination`1.NextPageButtonTemplate">
+            <summary>
+            Gets or sets content of next button of pager.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridPagination`1.ItemsPerPageTemplate">
+            <summary>
+            Gets or sets content of items per page of grid.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridPagination`1.TotalItemsShortTemplate">
+            <summary>
+            Gets or sets content of total items grid for small devices.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._DataGridPagination`1.TotalItemsTemplate">
+            <summary>
+            Gets or sets content of total items grid.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid._BaseDataGridRow`1.cellsValues">
+            <summary>
+            Holds the internal value for every cell in the row.
+            </summary>
+        </member>
+        <member name="F:Blazorise.DataGrid._BaseDataGridRow`1.multiSelect">
+            <summary>
+            Holds the reference to the multiSelect cell.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._BaseDataGridRow`1.IsSelected">
+            <summary>
+            Indicates if the row is selected.
+            </summary>
+        </member>
+        <member name="M:Blazorise.DataGrid._BaseDataGridRow`1.GetBackground(Blazorise.DataGrid.DataGridRowStyling,Blazorise.DataGrid.DataGridRowStyling)">
+            <summary>
+            Gets the row background color.
+            </summary>
+        </member>
+        <member name="M:Blazorise.DataGrid._BaseDataGridRow`1.GetColor(Blazorise.DataGrid.DataGridRowStyling,Blazorise.DataGrid.DataGridRowStyling)">
+            <summary>
+            Gets the row color.
+            </summary>
+        </member>
+        <member name="M:Blazorise.DataGrid._BaseDataGridRow`1.GetClass(Blazorise.DataGrid.DataGridRowStyling,Blazorise.DataGrid.DataGridRowStyling)">
+            <summary>
+            Gets the row classnames.
+            </summary>
+        </member>
+        <member name="M:Blazorise.DataGrid._BaseDataGridRow`1.GetStyle(Blazorise.DataGrid.DataGridRowStyling,Blazorise.DataGrid.DataGridRowStyling)">
+            <summary>
+            Gets the row styles.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._BaseDataGridRow`1.Item">
+            <summary>
+            Item associated with the data set.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._BaseDataGridRow`1.Columns">
+            <summary>
+            List of columns used to build this row.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._BaseDataGridRow`1.Selected">
+            <summary>
+            Occurs after the row is selected.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._BaseDataGridRow`1.Clicked">
+            <summary>
+            Occurs after the row is clicked.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._BaseDataGridRow`1.DoubleClicked">
+            <summary>
+            Occurs after the row is double clicked.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._BaseDataGridRow`1.Edit">
+            <summary>
+            Activates the edit command for current item.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._BaseDataGridRow`1.Delete">
+            <summary>
+            Activates the delete command for current item.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._BaseDataGridRow`1.Save">
+            <summary>
+            Activates the save command.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._BaseDataGridRow`1.Cancel">
+            <summary>
+            Activates the cancel command.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._BaseDataGridRow`1.MultiSelect">
+            <summary>
+            Activates the multi select command.
+            </summary>
+        </member>
+        <member name="P:Blazorise.DataGrid._BaseDataGridRow`1.HoverCursor">
+            <summary>
+            Gets or sets the applied cursor when the row is hovered over.
+            </summary>
+        </member>
+    </members>
+</doc>

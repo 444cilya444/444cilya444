@@ -1,0 +1,92 @@
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\BotVK2.0.exe.config
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\BotVK2.0.exe
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\BotVK2.0.pdb
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\HtmlAgilityPack.dll
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\Newtonsoft.Json.dll
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\OpenHardwareMonitorLib.dll
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\VkNet.dll
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\HtmlAgilityPack.pdb
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\HtmlAgilityPack.xml
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\Newtonsoft.Json.xml
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\bin\Debug\VkNet.xml
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\obj\Debug\BotVK2._0.Form1.resources
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\obj\Debug\BotVK2._0.Properties.Resources.resources
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\obj\Debug\BotVK2.0.csproj.GenerateResource.cache
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\obj\Debug\BotVK2.0.csproj.CoreCompileInputs.cache
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\obj\Debug\BotVK2.0.csproj.CopyComplete
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\obj\Debug\BotVK2.0.exe
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\obj\Debug\BotVK2.0.pdb
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\BotVK2.0.exe.config
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\BotVK2.0.exe
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\BotVK2.0.pdb
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\HtmlAgilityPack.dll
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\OpenHardwareMonitorLib.dll
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\VkNet.dll
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\HtmlAgilityPack.xml
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\bin\Debug\VkNet.xml
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\obj\Debug\BotVK2.0.csprojAssemblyReference.cache
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\obj\Debug\BotVK2._0.Form1.resources
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\obj\Debug\BotVK2._0.Properties.Resources.resources
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\obj\Debug\BotVK2.0.csproj.GenerateResource.cache
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\obj\Debug\BotVK2.0.csproj.CoreCompileInputs.cache
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\obj\Debug\BotVK2.0.csproj.CopyComplete
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\obj\Debug\BotVK2.0.exe
+C:\Users\mrsky\source\repos\BotVK2.0\BotVK2.0\obj\Debug\BotVK2.0.pdb
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\BotVK2.0.exe.config
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\BotVK2.0.exe
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\BotVK2.0.pdb
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\HtmlAgilityPack.dll
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\OpenHardwareMonitorLib.dll
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\VkNet.dll
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\HtmlAgilityPack.xml
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\bin\Debug\VkNet.xml
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\obj\Debug\BotVK2._0.Form1.resources
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\obj\Debug\BotVK2._0.Properties.Resources.resources
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\obj\Debug\BotVK2.0.csproj.GenerateResource.cache
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\obj\Debug\BotVK2.0.csproj.CoreCompileInputs.cache
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\obj\Debug\BotVK2.0.csproj.CopyComplete
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\obj\Debug\BotVK2.0.exe
+C:\Users\mrsky\source\repos\BotVK2.0 — копия\BotVK2.0\obj\Debug\BotVK2.0.pdb
+D:\Проекты\WinForms\BotVK2.0\BotVK2.0\obj\Debug\BotVK2.0.csproj.AssemblyReference.cache

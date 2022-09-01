@@ -1,0 +1,17 @@
+E:\Проекты\WinForms\Эталонная ИС\bin\Release\Database1.mdf
+E:\Проекты\WinForms\Эталонная ИС\bin\Release\Database1_log.ldf
+E:\Проекты\WinForms\Эталонная ИС\obj\Release\WindowsFormsApp1.csproj.AssemblyReference.cache
+E:\Проекты\WinForms\Эталонная ИС\obj\Release\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+E:\Проекты\WinForms\Эталонная ИС\obj\Release\WindowsFormsApp1.Forms.Aut.resources
+E:\Проекты\WinForms\Эталонная ИС\obj\Release\WindowsFormsApp1.Forms.DobArchive.resources
+E:\Проекты\WinForms\Эталонная ИС\obj\Release\WindowsFormsApp1.Forms.MainForm.resources
+E:\Проекты\WinForms\Эталонная ИС\obj\Release\WindowsFormsApp1.Forms.Menus.resources
+E:\Проекты\WinForms\Эталонная ИС\obj\Release\WindowsFormsApp1.Forms.Reg.resources
+E:\Проекты\WinForms\Эталонная ИС\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+E:\Проекты\WinForms\Эталонная ИС\obj\Release\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\Проекты\WinForms\Эталонная ИС\obj\Release\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\Проекты\WinForms\Эталонная ИС\bin\Release\Группа риска.exe.config
+E:\Проекты\WinForms\Эталонная ИС\bin\Release\Группа риска.exe
+E:\Проекты\WinForms\Эталонная ИС\bin\Release\Группа риска.pdb
+E:\Проекты\WinForms\Эталонная ИС\obj\Release\Группа риска.exe
+E:\Проекты\WinForms\Эталонная ИС\obj\Release\Группа риска.pdb

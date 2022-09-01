@@ -1,0 +1,11 @@
+E:\Проекты\КрестикиНолики\bin\Debug\КрестикиНолики.exe.config
+E:\Проекты\КрестикиНолики\bin\Debug\КрестикиНолики.exe
+E:\Проекты\КрестикиНолики\bin\Debug\КрестикиНолики.pdb
+E:\Проекты\КрестикиНолики\obj\Debug\КрестикиНолики.csproj.AssemblyReference.cache
+E:\Проекты\КрестикиНолики\obj\Debug\КрестикиНолики.csproj.SuggestedBindingRedirects.cache
+E:\Проекты\КрестикиНолики\obj\Debug\КрестикиНолики.Properties.Resources.resources
+E:\Проекты\КрестикиНолики\obj\Debug\КрестикиНолики.csproj.GenerateResource.cache
+E:\Проекты\КрестикиНолики\obj\Debug\КрестикиНолики.csproj.CoreCompileInputs.cache
+E:\Проекты\КрестикиНолики\obj\Debug\КрестикиНолики.exe
+E:\Проекты\КрестикиНолики\obj\Debug\КрестикиНолики.pdb
+E:\Проекты\КрестикиНолики\obj\Debug\КрестикиНолики.main.resources

@@ -1,0 +1,51 @@
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form2.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form3.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\mrsky\source\repos\WindowsFormsApp2\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\mrsky\source\repos\WindowsFormsApp2 — копия\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+C:\Users\mrsky\source\repos\WindowsFormsApp2 — копия\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+C:\Users\mrsky\source\repos\WindowsFormsApp2 — копия\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+C:\Users\mrsky\source\repos\WindowsFormsApp2 — копия\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+C:\Users\mrsky\source\repos\WindowsFormsApp2 — копия\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp2 — копия\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form2.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp2 — копия\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form3.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp2 — копия\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp2 — копия\WindowsFormsApp2\obj\Debug\StyleForm.resources
+C:\Users\mrsky\source\repos\WindowsFormsApp2 — копия\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+C:\Users\mrsky\source\repos\WindowsFormsApp2 — копия\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+C:\Users\mrsky\source\repos\WindowsFormsApp2 — копия\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+C:\Users\mrsky\source\repos\WindowsFormsApp2 — копия\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+E:\Проекты\Проeкт с правильными переходами\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+E:\Проекты\Проeкт с правильными переходами\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+E:\Проекты\Проeкт с правильными переходами\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+E:\Проекты\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csprojAssemblyReference.cache
+E:\Проекты\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+E:\Проекты\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form2.resources
+E:\Проекты\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form3.resources
+E:\Проекты\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+E:\Проекты\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\StyleForm.resources
+E:\Проекты\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+E:\Проекты\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+E:\Проекты\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+E:\Проекты\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+E:\Проекты\WinForms\Проeкт с правильными переходами\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+E:\Проекты\WinForms\Проeкт с правильными переходами\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+E:\Проекты\WinForms\Проeкт с правильными переходами\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+E:\Проекты\WinForms\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+E:\Проекты\WinForms\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form2.resources
+E:\Проекты\WinForms\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form3.resources
+E:\Проекты\WinForms\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+E:\Проекты\WinForms\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\StyleForm.resources
+E:\Проекты\WinForms\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+E:\Проекты\WinForms\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+E:\Проекты\WinForms\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+E:\Проекты\WinForms\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+E:\Проекты\WinForms\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+E:\Проекты\WinForms\Проeкт с правильными переходами\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.SuggestedBindingRedirects.cache
